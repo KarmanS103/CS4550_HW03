@@ -59,7 +59,7 @@ export function checkUnique(text){
     }
 
     for(let i = 0; i<text.length; i++) {
-        if (check_list[text[i]] == true) {
+        if (check_list[text[i]] === true) {
             temp = false;
         } else {
             check_list[text[i]] = true;
